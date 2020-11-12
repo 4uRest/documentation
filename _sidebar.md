@@ -7,6 +7,5 @@
         - [Productos](/basedata/menu/Products)
 
     - [Empleados](/basedata/employees/index)
-        - [Ingredientes](/basedata/employees/index)
         - [Usuarios](/basedata/employees/users)
         - [Roles](/basedata/employees/roles)
