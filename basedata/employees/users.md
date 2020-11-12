@@ -1,4 +1,4 @@
-# Users
+# Usuarios
 
 | Parámetro | Descripción | Tipo de dato |
 |-|-|-|
