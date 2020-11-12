@@ -20,7 +20,7 @@ La entidad **Usuario** representa a un empleado en el sistema.
 |  | deletedAt |
 | **FK** | subsidiary_id |
 
-En el siguiente [Documento](https://app.diagrams.net/#G1TR1Q9nC36PcOae7jeaJIxgDLTjUUpkfL) se accede al diagrama de la base de datos.
+El siguiente documento [(Link aquí)](https://app.diagrams.net/#G1TR1Q9nC36PcOae7jeaJIxgDLTjUUpkfL) proporciona el acceso al diagrama de la base de datos.
 
 
 | Parámetro | Descripción | Tipo de dato |
@@ -41,4 +41,4 @@ En el siguiente [Documento](https://app.diagrams.net/#G1TR1Q9nC36PcOae7jeaJIxgDL
 | deletedAt | Fecha en la que se elimina el registro. Null—No eliminado. Valor por defecto null. | Fecha y hora |
 | subsidiary_id | ID de la sucursal a la que pertenece el registro.. | Número entero |
 
-📝 [Edit document](https://github.com/4uRest/documentation)
+📝 [Editar Documento](https://github.com/4uRest/documentation)

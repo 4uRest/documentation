@@ -43,4 +43,4 @@ Tabla Ingredientes (**Ingredients**)
 | deletedAt | Fecha en la que se elimina el ingrediente. Null—No eliminado. Valor por defecto null. | Fecha y hora | NULL |
 | subsidiary_id | ID de la sucursal a la que pertenece el ingrediente. | Número entero | Generado tipo 2|
 
-📝 [Edit document](https://github.com/4uRest/documentation)
+📝 [Editar Documento](https://github.com/4uRest/documentation)
