@@ -5,3 +5,8 @@
         - [Productos Semi-Terminados](/basedata/menu/Semi-FinishedProducts)
         - [Categorías de Productos](/basedata/menu/ProductsCategories)
         - [Productos](/basedata/menu/Products)
+
+    - [Empleados](/basedata/employees/index)
+        - [Ingredientes](/basedata/employees/index)
+        - [Categorías de Ingredientes](/basedata/employees/roles)
+        - [Productos Semi-Terminados](/basedata/employees/users)
