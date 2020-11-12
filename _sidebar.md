@@ -8,5 +8,5 @@
 
     - [Empleados](/basedata/employees/index)
         - [Ingredientes](/basedata/employees/index)
-        - [Categorías de Ingredientes](/basedata/employees/roles)
-        - [Productos Semi-Terminados](/basedata/employees/users)
+        - [Usuarios](/basedata/employees/users)
+        - [Roles](/basedata/employees/roles)
