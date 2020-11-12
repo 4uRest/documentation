@@ -1,6 +1,5 @@
 # Ingredientes
 
-
 Entidad utilizada para representar ingredientes de recetas de productos y productos semi-elaborados. Un conjunto de ingredientes forman una receta. La descripción de los campos se representa de la siguiente manera:
 
 ### Interpretación de la tabla
@@ -43,3 +42,5 @@ Tabla Ingredientes (**Ingredients**)
 | updatedAt | Fecha en la que se actualiza el ingrediente. | Fecha y hora | Generado tipo 1|
 | deletedAt | Fecha en la que se elimina el ingrediente. Null—No eliminado. Valor por defecto null. | Fecha y hora | NULL |
 | subsidiary_id | ID de la sucursal a la que pertenece el ingrediente. | Número entero | Generado tipo 2|
+
+📝 [Edit document](https://github.com/4uRest/documentation)
