@@ -20,7 +20,7 @@ La entidad **Usuario** representa a un empleado en el sistema.
 |  | deletedAt |
 | **FK** | subsidiary_id |
 
-El siguiente documento [(Link aquí)](https://app.diagrams.net/#G1TR1Q9nC36PcOae7jeaJIxgDLTjUUpkfL) proporciona el acceso al diagrama de la base de datos.
+Diagrama de la base de datos [(Link aquí)](https://app.diagrams.net/#G1TR1Q9nC36PcOae7jeaJIxgDLTjUUpkfL).
 
 
 | Parámetro | Descripción | Tipo de dato |
