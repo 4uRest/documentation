@@ -2,6 +2,8 @@
 
 La entidad **Usuario** representa a un empleado en el sistema.
 
+### **Tabla en base de datos.**
+
 |  | User |
 |-|-|
 | **PK** | user_id |
@@ -22,6 +24,7 @@ La entidad **Usuario** representa a un empleado en el sistema.
 
 Diagrama de la base de datos [(Link aquí)](https://app.diagrams.net/#G1TR1Q9nC36PcOae7jeaJIxgDLTjUUpkfL).
 
+### **Descripción de campos.**
 
 | Parámetro | Descripción | Tipo de dato |
 |-|-|-|
