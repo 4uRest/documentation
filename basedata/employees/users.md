@@ -1,5 +1,22 @@
 # Usuarios
 
+| **PK** | user_id |
+|  | name |
+|  | last_name |
+|  | phone_number |
+|  | birthdate |
+|  | icon |
+| **FK** | rol_id |
+|  | email |
+|  | password |
+|  | pos_pin |
+|  | inactive |
+|  | createdAt |
+|  | updatedAt |
+|  | deletedAt |
+| **FK** | subsidiary_id |
+
+
 | Parámetro | Descripción | Tipo de dato |
 |-|-|-|
 | user_id | ID único y autoincrementable del registro. | Número entero |
