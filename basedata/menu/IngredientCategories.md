@@ -16,3 +16,5 @@ Entidad utilizada para clasificar/agrupar ingredientes. El detalle de los campos
 | updatedAt | Fecha en la que se actualiza la categoría. | Fecha y hora | Generado |
 | deletedAt | Fecha en la que se elimina la categoría. Null—No eliminado. Valor por defecto null. | Fecha y hora | NULL |
 | subsidiary_id | ID de la sucursal a la que pertenece la categoría. | Número entero | Generado |
+
+📝 [Edit document](https://github.com/4uRest/documentation)
