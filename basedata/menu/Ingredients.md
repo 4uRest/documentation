@@ -1,10 +1,10 @@
 # Ingredientes
 
-Entidad utilizada para representar ingredientes de recetas de productos y productos semi-elaborados. Un conjunto de ingredientes forman una receta. La descripción de los campos se representa de la siguiente manera:
+Entidad utilizada para representar ingredientes de recetas de productos y productos semi-elaborados. Un conjunto de ingredientes forman una receta.
 
 ### **Tabla en base de datos.**
 
-|  | Ingredients |
+|  | Ingredient |
 |-|-|
 | **PK** | ingredient_id |
 |  | ingredient_name |
@@ -22,14 +22,16 @@ Entidad utilizada para representar ingredientes de recetas de productos y produc
 |  | ingredients_type |
 |  | partial_write_off |
 |  | hidden |
-|  | createdAt |
-|  | updatedAt |
-|  | deletedAt |
+|  | created_at |
+|  | updated_at |
+|  | deleted_at |
 | **FK** | subsidiary_id |
 
 Diagrama de la base de datos [(Link aquí)](https://app.diagrams.net/#G1TR1Q9nC36PcOae7jeaJIxgDLTjUUpkfL).
 
 ### **Descripción de campos.**
+
+La descripción de los campos se representa de la siguiente manera:
 
 | Parámetro | Descripción | Tipo de dato |
 |-|-|-|
