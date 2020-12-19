@@ -1,11 +1,29 @@
 - [Documentación de la Base de Datos](/basedata/index)
-    - [Menu](/basedata/menu/index)
-        - [Ingredientes](/basedata/menu/Ingredients)
-        - [Categorías de Ingredientes](/basedata/menu/IngredientCategories)
-<!--        - [Productos Semi-Terminados](/basedata/menu/Semi-FinishedProducts)-->
-<!--        - [Categorías de Productos](/basedata/menu/ProductsCategories)-->
-<!--        - [Productos](/basedata/menu/Products)-->
+    - [Entidades](/basedata/Entidades/index)
+        - [Árticulo](/basedata/Entidades/)
+        - [Ciudad](/basedata/Entidades/)
+        - [Compañía](/basedata/Entidades/)
+        - [País](/basedata/Entidades/)
+        - [Receta de Platillo](/basedata/Entidades/)
+        - [Platillo](/basedata/Entidades/)
+        - [Menu](/basedata/Entidades/)
+        - [Permiso](/basedata/Entidades/)
+        - [Colonía](/basedata/Entidades/)
+        - [Código Postal](/basedata/Entidades/)
+        - [Categoría de Producto](/basedata/Entidades/)
+        - [Área de Producción](/basedata/Entidades/)
+        - [Permiso de Rol](/basedata/Entidades/)
+        - [Rol](/basedata/Entidades/)
+        - [Plataforma de Venta](/basedata/Entidades/)
+        - [Área de Venta](/basedata/Entidades/)
+        - [Categoría de Semi-terminado](/basedata/Entidades/)
+        - [Receta de Semi-termiando](/basedata/Entidades/)
+        - [Estados](/basedata/Entidades/)
+        - [Sucursal](/basedata/Entidades/)
+        - [Sucursal de Grupo de Sucursal](/basedata/Entidades/)
+        - [Grupo de Sucursal](/basedata/Entidades/)
+        - [Datos Fiscales](/basedata/Entidades/)
+        - [Unidad de Medida](/basedata/Entidades/)
+        - [Usuario](/basedata/Entidades/)
+        - [Merma](/basedata/Entidades/)
 
-<!--    - [Empleados](/basedata/employees/index)-->
-<!--        - [Usuarios](/basedata/employees/users)-->
-<!--        - [Roles](/basedata/employees/roles)-->

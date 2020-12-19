@@ -28,41 +28,87 @@ Ejemplo de una categoría que sólo está activa viernes, sábado y domingo.
 
 ```json
 {
-“monday”:	{
-		"status": "2" 
+"availability":[
+	{
+"subsidiary_id": "2" ,
+“schedule_monday”:    {
+        "status": "2" ,
         "start_time": "00:00",
-    	"end_time": "00:00",
+        "end_time": "00:00",
 },
-“tuesday”:	{
-		"status": "2" 
+“schedule_tuesday”:    {
+        "status": "2" ,
         "start_time": "00:00",
-    	"end_time": "00:00",
+        "end_time": "00:00",
 },
-“wednesday”:	{
-		"status": "2" 
+“schedule_wednesday”:    {
+        "status": "2" ,
         "start_time": "00:00",
-    	"end_time": "00:00",
+        "end_time": "00:00",
 },
-“thursday”:	{
-		"status": "2" 
+“schedule_thursday”:    {
+        "status": "2" ,
         "start_time": "00:00",
-    	"end_time": "00:00",
+        "end_time": "00:00",
 },
-“friday”:	{
-		"status": "1" 
-        "start_time": "12:00",
-    	"end_time": "23:59",
+“schedule_friday”:    {
+        "status": "2" ,
+        "start_time": "00:00",
+        "end_time": "00:00",
 },
-“saturday”:	{
-		"status": "1" 
-        "start_time": "12:00",
-    	"end_time": "23:59",
+“schedule_saturday”:    {
+        "status": "2" ,
+        "start_time": "00:00",
+        "end_time": "00:00",
 },
-“sunday”:	{
-		"status": "1" 
-        "start_time": "12:00",
-    	"end_time": "23:59",
+“schedule_sunday”:    {
+        "status": "2" ,
+        "start_time": "00:00",
+        "end_time": "00:00",
 }
+
+},
+{
+"subsidiary_id": "39" ,
+“schedule_monday”:    {
+        "status": "2" ,
+        "start_time": "00:00",
+        "end_time": "00:00",
+},
+“schedule_tuesday”:    {
+        "status": "2" ,
+        "start_time": "00:00",
+        "end_time": "00:00",
+},
+“schedule_wednesday”:    {
+        "status": "2" ,
+        "start_time": "00:00",
+        "end_time": "00:00",
+},
+“schedule_thursday”:    {
+        "status": "2" ,
+        "start_time": "00:00",
+        "end_time": "00:00",
+},
+“schedule_friday”:    {
+        "status": "2" ,
+        "start_time": "00:00",
+        "end_time": "00:00",
+},
+“schedule_saturday”:    {
+        "status": "2" ,
+        "start_time": "00:00",
+        "end_time": "00:00",
+},
+“schedule_sunday”:    {
+        "status": "2" ,
+        "start_time": "00:00",
+        "end_time": "00:00",
+}
+
+},
+
+]
 }
 ```
 
