@@ -202,7 +202,7 @@ _ _ _
 
 Article table
 
-![Article table](/basedata/images/ArticleTable.png)
+![Article table](basedata/images/ArticleTable.png)
 
 
 Diagrama de la base de datos [(Link aquí)](https://app.diagrams.net/#G1TR1Q9nC36PcOae7jeaJIxgDLTjUUpkfL).
