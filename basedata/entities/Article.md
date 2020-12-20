@@ -12,7 +12,7 @@ Variante 2: **600 ml**
 
 Variante 3: **2 lt**
 
-### **Descripción de campos.**
+### **1. Descripción de campos.**
 
 El detalle de los campos de la tabla en la base de datos son:
 
@@ -33,9 +33,9 @@ El detalle de los campos de la tabla en la base de datos son:
 | DateTime | created_at | Fecha y hora en la que se agregó el artículo al sistema por primera vez. Valor por defecto: NULL. |
 | DateTime | updated_at | Fecha y hora en la que se actualizó el artículo en el sistema. Valor por defecto: NULL. |
 | DateTime | deleted_at | Fecha y hora en la que se eliminó el artículo del sistema. Valor por defecto: NULL. |
-| json | schedule_subsidiaries | Disponibilidad del artículo en el sistema por hora, día de la semana y sucursal. |
+| json | schedule_subsidiaries | Disponibilidad del artículo en el sistema por hora, día de la semana y sucursal. Ejemplo en el punto 2.1 |
 | json | article_modifications | Variantes del artículo en el sistema. |
-| json | selling_areas | Áreas de venta del artículo en el sistema por sucursal y por plataforma de venta. |
+| json | selling_areas | Áreas de venta del artículo en el sistema por sucursal y por plataforma de venta. Ejemplo en el punto 2.2 |
 | json | production_areas | Áreas de producción del artículo en el sistema por sucursal. |
 | int[] | taxes_ids | Arreglo de impuestos aplicados al artículo. Orden de prioridades de campos de impuestos 1- tax_exempt, 2- flag_inherits_tax_data, 3- taxes_ids. |
 | int | product_category_id | Identificador de la categoría de producto a la que pertenece el artículo. |
@@ -44,12 +44,12 @@ El detalle de los campos de la tabla en la base de datos son:
 | int | updater_user_id | Identificador del ultimo usuario que actualizó el artículo. |
 | int | deletor_user_id | Identificador del usuario que eliminó el artículo. |
 
-### **Descripción de campos JSON.**
+### **2.  Descripción de campos JSON.**
 
 El detalle de los campos de tipo **JSON** de la tabla son:
 
 
-#### **Campo schedule_subsidiaries**
+#### **2.1 Campo schedule_subsidiaries**
 
 En este ejemplo tenemos lo siguiente.
 
@@ -140,7 +140,7 @@ En este ejemplo tenemos lo siguiente.
 }
 ```
 
-#### **Campo selling_areas**
+#### **2.2 Campo selling_areas**
 
 En este ejemplo tenemos lo siguiente.
 
@@ -167,7 +167,8 @@ En este ejemplo tenemos lo siguiente.
 
 
 ```json
-[
+{
+"SalesAreaBySubsidiary":[
     {
     "sucursal_id": "15",
     "platforms":[
@@ -195,9 +196,13 @@ En este ejemplo tenemos lo siguiente.
     ]
 }
 ]
+}
 ```
+_ _ _
 
+Article table
 
+![Article table](/basedata/images/ArticleTable.png)
 
 
 Diagrama de la base de datos [(Link aquí)](https://app.diagrams.net/#G1TR1Q9nC36PcOae7jeaJIxgDLTjUUpkfL).
