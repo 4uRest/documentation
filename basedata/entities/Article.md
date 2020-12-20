@@ -200,9 +200,14 @@ En este ejemplo tenemos lo siguiente.
 ```
 _ _ _
 
-Article table
+Article table 1
 
-![Article table](basedata/images/ArticleTable.png)
+![Article table](/images/ArticleTable.png)
+
+
+Article table 2
+
+![Article table](images/ArticleTable.png)
 
 
 Diagrama de la base de datos [(Link aquí)](https://app.diagrams.net/#G1TR1Q9nC36PcOae7jeaJIxgDLTjUUpkfL).
