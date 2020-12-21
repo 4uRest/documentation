@@ -146,51 +146,51 @@ En este ejemplo tenemos lo siguiente.
 
 **Sucursales:**
 
-| Sucursal | Id |
+| Sucursal | Guid |
 |-|-|
-| SUCURSAL 1 | 15 |
-| SUCURSAL 2 | 20 |
+| SUCURSAL 1 | 3bc2e6ba-db4d-4f99-a047-9d3325f661c5 |
+| SUCURSAL 2 | ded6bfc9-162c-445c-9c2c-527fe326cac7 |
 
 **Medios de venta en SUCURSAL 1:**
 
-| Medio de Venta | Id |
+| Medio de Venta | Guid |
 |-|-|
-| MOSTRADOR | 89 |
-| UBER | 16 |
+| MOSTRADOR | 7a40a830-3328-4b48-805e-c905e0905878 |
+| UBER | b3c2a879-2086-43ce-9382-35633486ec1a |
 
 **Medios de venta en SUCURSAL 2:**
 
-| Medio de Venta | Id |
+| Medio de Venta | Guid |
 |-|-|
-| MOSTRADOR | 99 |
-| DIDI | 78 |
+| MOSTRADOR | 241cac4c-b536-4220-bebc-f07bfcd8b30b |
+| DIDI | 9b58bb8e-87cd-411e-a75f-7fcde1fdfa64 |
 
 
 ```json
 {
 "SalesAreaBySubsidiary":[
     {
-    "sucursal_id": "15",
+    "sucursal_guid": "3bc2e6ba-db4d-4f99-a047-9d3325f661c5",
     "platforms":[
         {
-        "sale_platform_id":"89",
+        "sale_platform_guid":"7a40a830-3328-4b48-805e-c905e0905878",
         "price": "19.99"
         },
         {
-        "sale_platform_id":"16",
+        "sale_platform_guid":"b3c2a879-2086-43ce-9382-35633486ec1a",
         "price": "34"
         }
     ]
 },
 {
-    "sucursal_id": "20",
+    "sucursal_guid": "ded6bfc9-162c-445c-9c2c-527fe326cac7",
     "platforms":[
         {
-        "sale_platform_id":"99",
+        "sale_platform_guid":"241cac4c-b536-4220-bebc-f07bfcd8b30b",
         "price": "25.5"
         },
         {
-        "sale_platform_id":"78",
+        "sale_platform_guid":"9b58bb8e-87cd-411e-a75f-7fcde1fdfa64",
         "price": "38"
         }
     ]
