@@ -200,14 +200,11 @@ En este ejemplo tenemos lo siguiente.
 ```
 _ _ _
 
-Article table 1
+### **3.  Modelo en base de datos.**
+
+El modelo de la entidad en la base de datos con sus llaves foráneas se presenta de la siguiente manera.
 
 ![Article table](/images/ArticleTable.png)
-
-
-Article table 2
-
-![Article table](images/ArticleTable.png)
 
 
 Diagrama de la base de datos [(Link aquí)](https://app.diagrams.net/#G1TR1Q9nC36PcOae7jeaJIxgDLTjUUpkfL).
