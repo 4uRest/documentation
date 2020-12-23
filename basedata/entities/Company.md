@@ -11,7 +11,7 @@ Entidad utilizada para registrar empresas en el sistema. Una empresa es capaz de
 
 pertenecientes a ella. Un usuario registrado en el sistema siempre pertenece a una empresa.
 
-Diagrama de la base de datos [(Link aquí)](https://app.diagrams.net/#G1TR1Q9nC36PcOae7jeaJIxgDLTjUUpkfL).
+<!-- Diagrama de la base de datos [(Link aquí)](https://app.diagrams.net/#G1TR1Q9nC36PcOae7jeaJIxgDLTjUUpkfL). -->
 _ _ _
 
 ## 2.Descripción de campos.
@@ -61,4 +61,4 @@ El modelo de la entidad en la base de datos con sus llaves foráneas se presenta
 
 _ _ _
 
-📝 [Editar Documento](https://github.com/4uRest/documentation)
+📝 [Editar Documento](https://github.com/4uRest/documentation/blob/master/basedata/entities/Company.md)
