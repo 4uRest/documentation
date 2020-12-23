@@ -1,8 +1,17 @@
-- [Documentación de la Base de Datos](/basedata/index)
-- [Entidades](/basedata/entities/index)
-- [Árticulo](/basedata/entities/Article)
+<!-- - [Documentación de la Base de Datos](/basedata/index)
+- [Entidades](/basedata/entities/index) -->
+
+- [Modelo de Negocio](/basedata/entities/BusinessModel)
+- [Empresa](/basedata/entities/Company)
+- [Grupo de Sucursal](/basedata/entities/SubsidiaryGroup)
+- [Sucursal](/basedata/entities/Subsidiary)
+- [Datos Fiscales](/basedata/entities/TaxData)
+- [Usuario](/basedata/entities/User)
+
+
+
+<!-- - [Árticulo](/basedata/entities/Article) 
 - [Ciudad](/basedata/entities/City)
-- [Compañía](/basedata/entities/Company)
 - [País](/basedata/entities/Country)
 - [Receta de Platillo](/basedata/entities/Dish)
 - [Platillo](/basedata/entities/DishRecipe)
@@ -20,11 +29,6 @@
 - [Categoría de Semi-terminado](/basedata/entities/SemiFinishedCategory)
 - [Receta de Semi-termiando](/basedata/entities/SemiFinishedRecipe)
 - [Estados](/basedata/entities/State)
-- [Sucursal](/basedata/entities/Subsidiary)
-- [Sucursal de Grupo de Sucursal](/basedata/entities/SubsidiariesOfSubsidiaryGroup)
-- [Grupo de Sucursal](/basedata/entities/SubsidiaryGroup)
-- [Datos Fiscales](/basedata/entities/TaxData)
 - [Unidad de Medida](/basedata/entities/UnitOfMeasurement)
-- [Usuario](/basedata/entities/User)
-- [Merma](/basedata/entities/Waste)
+- [Merma](/basedata/entities/Waste) -->
 
