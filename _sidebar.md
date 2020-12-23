@@ -5,7 +5,7 @@
 - [Empresa](/basedata/entities/Company)
 - [Grupo de Sucursal](/basedata/entities/SubsidiaryGroup)
 - [Sucursal](/basedata/entities/Subsidiary)
-- [Datos Fiscales](/basedata/entities/TaxData)
+- [Datos Físcales](/basedata/entities/TaxData)
 - [Usuario](/basedata/entities/User)
 
 
