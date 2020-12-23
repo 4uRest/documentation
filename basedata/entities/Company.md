@@ -25,7 +25,7 @@ El detalle de los campos de la tabla en la base de datos son:
 | string   | name              | Representa el nombre de la empresa.                                                 |
 | string   | phone_number      | Representa el número de teléfono de la empresa.                                     |
 | string   | email             | Representa el email de de la empresa.                                               |
-| json     | address           | Dirección de la empresa, en el punto 3 se desglosa y describe su estructura.       |
+| json     | address           | Dirección de la empresa, en el punto 3 se desglosa y describe su estructura.        |
 | guid     | tax_data_guid     | Campo que registra el guid de registro de los datos fiscales de la empresa.         |
 | guid     | creator_user_guid | Campo que registra el guid del usuario que crea la empresa.                         |
 | guid     | updater_user_guid | Campo que registra el guid del usuario que actualiza algún dato de la empresa.      |
