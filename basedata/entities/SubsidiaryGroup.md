@@ -1,6 +1,6 @@
 # Grupo de Sucursal
 
-Entidad utilizada para clasificar/agrupar .
+Entidad utilizada para agrupar sucursales que comparten un menu.
 
 ### **Tabla en base de datos.**
 
