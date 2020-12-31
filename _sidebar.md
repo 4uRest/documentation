@@ -1,12 +1,16 @@
 <!-- - [Documentación de la Base de Datos](/basedata/index)
 - [Entidades](/basedata/entities/index) -->
 
+- [Super Usuario](/basedata/entities/SuperUser)
+- [Super Rol](/basedata/entities/SuperRole)
 - [Modelo de Negocio](/basedata/entities/BusinessModel)
 - [Empresa](/basedata/entities/Company)
 - [Grupo de Sucursal](/basedata/entities/SubsidiaryGroup)
 - [Sucursal](/basedata/entities/Subsidiary)
 - [Datos Físcales](/basedata/entities/TaxData)
 - [Usuario](/basedata/entities/User)
+- [Rol](/basedata/entities/Role)
+- [Menu](/basedata/entities/Menu)
 
 
 
@@ -15,14 +19,14 @@
 - [País](/basedata/entities/Country)
 - [Receta de Platillo](/basedata/entities/Dish)
 - [Platillo](/basedata/entities/DishRecipe)
-- [Menu](/basedata/entities/Menu)
+
 - [Permiso](/basedata/entities/Permission)
 - [Colonía](/basedata/entities/Place)
 - [Código Postal](/basedata/entities/PostalCode)
 - [Categoría de Producto](/basedata/entities/ProductCategory)
 - [Área de Producción](/basedata/entities/ProductionArea)
 - [Permiso de Rol](/basedata/entities/RolePermission)
-- [Role](/basedata/entities/Role)
+
 - [Plataforma de Venta](/basedata/entities/SalePlatform)
 - [Área de Venta](/basedata/entities/SellingArea)
 - [Semi-terminado](/basedata/entities/SemiFinished)
