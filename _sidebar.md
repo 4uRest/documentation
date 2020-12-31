@@ -1,6 +1,5 @@
-<!-- - [Documentación de la Base de Datos](/basedata/index)
-- [Entidades](/basedata/entities/index) -->
-- [Modelo de la Base de Datos](/basedata/entities/index)
+[Documentación de la Base de Datos](/README)
+- [Modelo de Base de Datos en Etapa 1](/basedata/entities/index)
 - [Super Usuario](/basedata/entities/SuperUser)
 - [Super Rol](/basedata/entities/SuperRole)
 - [Modelo de Negocio](/basedata/entities/BusinessModel)
