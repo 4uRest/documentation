@@ -10,7 +10,7 @@ La descripción de los campos de las entidades se presenta a continuación.
 
 | Tipo | Campo | Descripción |
 |-|-|-|
-| guid | guid | Es el identificador único y llave primaria de tipo Guid. |
+| guid | guid | Es el identificador único y llave primaria de tipo guid. |
 | int | id | Registro único y auto incrementable de la tabla |
 | string | name | Representa el nombre del rol. |
 | guid | creator_super_user_guid | Campo que registra el guid del super usuario que crea el rol. |
