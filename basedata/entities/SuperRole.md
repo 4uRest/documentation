@@ -1,15 +1,23 @@
-# Menú
+# Super Rol
 
-Entidad utilizada para clasificar/agrupar .
+Entidad utilizada para gestionar permisos y alcances de super usuarios en el sistema.
 
-### **Tabla en base de datos.**
+---
 
+## 1.   Descripción de campos.
 
-Diagrama de la base de datos [(Link aquí)](https://app.diagrams.net/#G1TR1Q9nC36PcOae7jeaJIxgDLTjUUpkfL).
+La descripción de los campos de las entidades se presenta a continuación.
 
-### **Descripción de campos.**
+| Tipo | Campo | Descripción |
 
-El detalle de los campos de la tabla en la base de datos son:
+--- 
 
+## 2.  Modelo en base de datos.
+
+El modelo de la entidad en la base de datos con sus llaves foráneas se presenta de la siguiente manera.
+
+![Super Role table](/images/SuperRoleTable.png)
+
+Diagrama de la base de datos [(Link aquí)](https://app.diagrams.net/#G12bfdBfGq1QhoH-HbKd0D5KDiGZxJKMYT).
 
 📝 [Editar Documento](https://github.com/4uRest/documentation)
