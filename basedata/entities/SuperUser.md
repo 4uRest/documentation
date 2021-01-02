@@ -22,9 +22,9 @@ La descripción de los campos de las entidades se presenta a continuación.
 | string | password | Representa la clave de acceso al sistema del super usuario. |
 | byte | hidden | Representa la visibilidad en el sistema: 0—visible, 1—sin acceso al sistema. Por defecto es 0. |
 | guid | super_role_guid | Campo que registra el guid del rol asignado al super usuario. |
-| guid | creator_user_root_guid | Campo que registra el guid del super usuario que crea al nuevo super usuario. |
-| guid | updater_user_root_guid | Campo que registra el guid del super usuario que actualiza algún dato del super usuario. |
-| guid | deletor_user_root_guid | Campo que registra el guid del super usuario que elimina el super usuario. |
+| guid | creator_super_user_guid | Campo que registra el guid del super usuario que crea al nuevo super usuario. |
+| guid | updater_super_user_guid | Campo que registra el guid del super usuario que actualiza algún dato del super usuario. |
+| guid | deletor_super_user_guid | Campo que registra el guid del super usuario que elimina el super usuario. |
 | datetime | created_at | Campo que registra la hora y fecha de la creación del super usuario. |
 | datetime | updated_at | Campo que registra la hora y fecha de la actualización de algún dato del super usuario. |
 | datetime | deleted_at | Campo que registra la hora y fecha de la eliminación del super usuario. |
