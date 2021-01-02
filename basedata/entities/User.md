@@ -1,6 +1,8 @@
 # Usuario
 
+
 Entidad utilizada para gestionar usuarios en el sistema. Éstos son usuarios que utilizan los módulos del sistema según su rol, son el usuario final.
+
 ---
 
 ## 1.   Descripción de campos.
