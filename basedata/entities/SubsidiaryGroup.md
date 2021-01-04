@@ -34,4 +34,16 @@ El modelo de la entidad en la base de datos con sus llaves foráneas se presenta
 
 Diagrama de la base de datos [(Link aquí)](https://app.diagrams.net/#G12bfdBfGq1QhoH-HbKd0D5KDiGZxJKMYT).
 
+---
+
+## 3.  Reglas para operaciones básicas.
+
+Las reglas para las operaciones básicas y los campos mínimos requeridos de la entidad son:
+
+| Entitie | Campos de entrada mínimos | Reglas para Create | Reglas para Update | Reglas para Soft Delete |
+|:-:|:-:|:-:|:-:|:-:|
+| SubsidiaryGroup | name, business_model_id, company_guid | El usuario creador debe tener el rol autorizado para la acción. Se genera: id, created_at. Se cumple con campos de entrada mínimos y creator_user_guid | El usuario actualizador debe tener el rol autorizado para la acción. Se genera: updated_at. Se cumple con campos de entrada mínimos y updater_user_guid. | Que ninguna sucursal esté asignada al grupo de sucursales. El usuario eliminador debe tener el rol autorizado para la acción. Se genera: deleted_at. Se cumple con campo deletor_user_guid. |
+
+---
+
 📝 [Editar Documento](https://github.com/4uRest/documentation)
