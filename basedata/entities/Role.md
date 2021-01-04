@@ -11,14 +11,14 @@ La descripción de los campos de las entidades se presenta a continuación.
 | Tipo | Campo | Descripción |
 |-|-|-|
 | guid | guid | Es el identificador único y llave primaria de tipo guid. |
-| int | id | Registro único y auto incrementable de la tabla |
-| string | name | Representa el nombre del rol. |
-| guid | creator_super_user_guid | Campo que registra el guid del super usuario que crea el rol. |
-| guid | updater_super_user_guid | Campo que registra el guid del super usuario que actualiza algún dato del rol. |
-| guid | deletor_super_user_guid | Campo que registra el guid del super usuario que elimina el rol. |
-| datetime | created_at | Campo que registra la hora y fecha de la creación del rol. |
-| datetime | updated_at | Campo que registra la hora y fecha de la actualización de algún dato del rol. |
-| datetime | deleted_at | Campo que registra la hora y fecha de la eliminación del rol. |
+| int | id | Registro único y auto incrementable de la tabla. |
+| string | name | Representa el nombre asignado al rol. |
+| guid | creator_super_user_guid | Campo que registra el guid del creador del registro. |
+| guid | updater_super_user_guid | Campo que registra el guid del editor/modificador del registro. |
+| guid | deletor_super_user_guid | Campo que registra el guid del eliminador del registro. |
+| datetime | created_at | Campo que registra la hora y fecha de la creación del registro. |
+| datetime | updated_at | Campo que registra la hora y fecha de la actualización/modificación del registro. |
+| datetime | deleted_at | Campo que registra la hora y fecha de la eliminación del registro. |
 
 --- 
 

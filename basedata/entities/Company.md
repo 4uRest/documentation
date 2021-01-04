@@ -18,21 +18,21 @@ _ _ _
 
 El detalle de los campos de la tabla en la base de datos son:
 
-| Tipo     | Campo             | Descripción                                                                         |
-|----------|-------------------|-------------------------------------------------------------------------------------|
-| Guid     | guid              | Es el identificador único y llave primaria de tipo Guid.                            |
-| int      | id                | Registro único y auto incrementable de la tabla                                     |
-| string   | name              | Representa el nombre de la empresa.                                                 |
-| string   | phone_number      | Representa el número de teléfono de la empresa.                                     |
-| string   | email             | Representa el email de de la empresa.                                               |
-| json     | address           | Dirección de la empresa, en el punto 3 se desglosa y describe su estructura.        |
-| guid     | tax_data_guid     | Campo que registra el guid de registro de los datos fiscales de la empresa.         |
-| guid     | creator_user_guid | Campo que registra el guid del usuario que crea la empresa.                         |
-| guid     | updater_user_guid | Campo que registra el guid del usuario que actualiza algún dato de la empresa.      |
-| guid     | deletor_user_guid | Campo que registra el guid del usuario que elimina la empresa.                      |
-| DateTime | created_at        | Campo que registra la hora y fecha de la creación de la empresa.                    |
-| DateTime | updated_at        | Campo que registra la hora y fecha de la actualización de algún dato de la empresa. |
-| DateTime | deleted_at        | Campo que registra la hora y fecha de la eliminación de la empresa.                 |
+| Tipo | Campo | Descripción |
+|-|-|-|
+| guid | guid | Es el identificador único y llave primaria de tipo guid. |
+| int | id | Registro único y auto incrementable de la tabla. |
+| string | name | Representa el nombre asignado a la compañía. |
+| string | phone_number | Representa el número de teléfono de la empresa. |
+| string | email | Representa el email de de la empresa. |
+| json | address | Dirección de la empresa, en el punto 3 se desglosa y describe su estructura. |
+| guid | tax_data_guid | Campo que registra el guid de registro de los datos fiscales de la empresa. |
+| guid | creator_user_guid | Campo que registra el guid del creador del registro. |
+| guid | updater_user_guid | Campo que registra el guid del editor/modificador del registro. |
+| guid | deletor_user_guid | Campo que registra el guid del eliminador del registro. |
+| datetime | created_at | Campo que registra la hora y fecha de la creación del registro. |
+| datetime | updated_at | Campo que registra la hora y fecha de la actualización/modificación del registro. |
+| datetime | deleted_at | Campo que registra la hora y fecha de la eliminación del registro. |
 
 
 ---
