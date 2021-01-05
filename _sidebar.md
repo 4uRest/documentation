@@ -1,20 +1,18 @@
 [Documentación de la Base de Datos](/README)
 - [Modelo de Base de Datos en Etapa 1](/basedata/entities/index)
+
 - [Permiso](/basedata/entities/Permission)
+- [Super Usuario](/basedata/entities/SuperUser)
 - [Super Rol](/basedata/entities/SuperRole)
+- [Modelo de Negocio](/basedata/entities/BusinessModel)
+- [Usuario](/basedata/entities/User)
 - [Rol Semilla](/basedata/entities/SeedRole)
 - [Rol Personalizado ](/basedata/entities/CustomRole)
-- [Super Usuario](/basedata/entities/SuperUser)
-- [Modelo de Negocio](/basedata/entities/BusinessModel)
 - [Empresa](/basedata/entities/Company)
 - [Grupo de Sucursal](/basedata/entities/SubsidiaryGroup)
 - [Sucursal](/basedata/entities/Subsidiary)
 - [Datos Físcales](/basedata/entities/TaxData)
-- [Usuario](/basedata/entities/User)
-- [Rol](/basedata/entities/Role)
 - [Menu](/basedata/entities/Menu)
-
-
 
 <!-- - [Árticulo](/basedata/entities/Article) 
 - [Ciudad](/basedata/entities/City)
