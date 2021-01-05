@@ -61,6 +61,14 @@ Donde la descripción de los campos quedaría de la siguiente manera.
 
 ---
 
+Reglas base de la tabla para **SeedRolePermission**.
+
+| Entitie | Campos de entrada mínimos | Reglas para Create | Reglas para Update | Reglas para Soft Delete |
+|-|-|-|-|-|
+| SeedRolePermission | seed_role_guid, permission_guid | El usuario creador debe tener el super rol autorizado para la acción. Se genera: id, created_at. Se cumple con campos de entrada mínimos y creator_super_user_guid | No se puede ejecutar la operación. | El super usuario eliminador debe tener el super rol autorizado para la acción. Se aplica Hard Delete. |
+
+---
+
 ## 5.  Relación de modelos de negocio con roles semilla.
 
 Existe una relación entre **BusinessModel** y **SeedRole** donde surge **SeedRoleBusinessModel**.
@@ -78,12 +86,6 @@ Donde la descripción de los campos quedaría de la siguiente manera.
 | datetime | created_at | Campo que registra la hora y fecha de la creación del registro. |
 
 ---
-
-Reglas base de la tabla para **SeedRolePermission**.
-
-| Entitie | Campos de entrada mínimos | Reglas para Create | Reglas para Update | Reglas para Soft Delete |
-|-|-|-|-|-|
-| SeedRolePermission | seed_role_guid, permission_guid | El usuario creador debe tener el super rol autorizado para la acción. Se genera: id, created_at. Se cumple con campos de entrada mínimos y creator_super_user_guid | No se puede ejecutar la operación. | El super usuario eliminador debe tener el super rol autorizado para la acción. Se aplica Hard Delete. |
 
 Reglas base de la tabla para **SeedRoleBusinessModel**.
 
