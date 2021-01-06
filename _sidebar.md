@@ -1,5 +1,3 @@
-- Sidebar
-
   - [FIRST STAGE 4UREST](README.md)
   - [Modelo de Base de Datos en Etapa 1](/basedata/entities/index.md)
   - [Permiso](/basedata/entities/Permission)
