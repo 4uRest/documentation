@@ -81,7 +81,7 @@ Donde la descripción de los campos quedaría de la siguiente manera.
 |-|-|-|
 | int | id | Registro único y auto incrementable de la tabla. |
 | guid | seed_role_guid | Guid del rol semilla. |
-| guid | business_model_id | Guid del modelo de negocio. |
+| id | business_model_id | Id del modelo de negocio. |
 | guid | creator_user_guid | Campo que registra el guid del creador del registro. |
 | datetime | created_at | Campo que registra la hora y fecha de la creación del registro. |
 
