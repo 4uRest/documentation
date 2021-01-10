@@ -9,10 +9,10 @@ Entidad utilizada para gestionar el catálogo de productos y platillos en el sis
 La descripción de los campos de las entidades se presenta a continuación.
 
 | Tipo | Campo | Descripción |
-|-|-|-|
+|:-:|:-:|:-:|
 | int | id | Registro único y auto incrementable de la tabla. |
 | string | name | Representa el nombre asignado al menú. |
-| guid | company_guid | Campo que registra el guid de la empresa donde está asignado el menú. |
+| int | subsidiary_group_id | Id de registro del grupo de sucursales donde pertenece la sucursal. |
 | guid | creator_user_guid | Campo que registra el guid del creador del registro. |
 | guid | updater_user_guid | Campo que registra el guid del editor/modificador del registro. |
 | guid | deletor_user_guid | Campo que registra el guid del eliminador del registro. |
@@ -37,8 +37,8 @@ Diagrama de la base de datos [(Link aquí)](https://app.diagrams.net/#G12bfdBfGq
 Las reglas para las operaciones básicas y los campos mínimos requeridos de la entidad son:
 
 | Entitie | Campos de entrada mínimos | Reglas para Create | Reglas para Update | Reglas para Soft Delete |
-|:-:|:-:|:-:|:-:|:-:|
-| Menu | name, company_guid | El usuario creador debe tener el rol autorizado para la acción. Se genera: id, created_at. Se cumple con campos de entrada mínimos y creator_user_guid | El usuario actualizador debe tener el rol autorizado para la acción. Se genera: updated_at. Se cumple con campos de entrada mínimos y updater_user_guid. | Que ningun grupo de sucursales tenga el registro asignado. El usuario eliminador debe tener el rol autorizado para la acción. Se genera: deleted_at. Se cumple con campo deletor_user_guid. |
+|-|-|-|-|-|
+| Menu | name, subsidiary_group_id | El usuario creador debe tener el rol autorizado para la acción. Se genera: id, created_at. Se cumple con campos de entrada mínimos y creator_user_guid | El usuario actualizador debe tener el rol autorizado para la acción. Se genera: updated_at. Se cumple con campos de entrada mínimos y updater_user_guid. | Que ningun grupo de sucursales tenga el registro asignado. El usuario eliminador debe tener el rol autorizado para la acción. Se genera: deleted_at. Se cumple con campo deletor_user_guid. |
 
 ---
 
