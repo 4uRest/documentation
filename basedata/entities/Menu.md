@@ -9,7 +9,7 @@ Entidad utilizada para gestionar el catálogo de productos y platillos en el sis
 La descripción de los campos de las entidades se presenta a continuación.
 
 | Tipo | Campo | Descripción |
-|:-:|:-:|:-:|
+|-|-|-|
 | int | id | Registro único y auto incrementable de la tabla. |
 | string | name | Representa el nombre asignado al menú. |
 | int | subsidiary_group_id | Id de registro del grupo de sucursales donde pertenece la sucursal. |
