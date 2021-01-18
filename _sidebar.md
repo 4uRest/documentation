@@ -4,5 +4,5 @@
   - [Master Super Permiso](/basedata/entities/MasterSuperPermission)
   - [Master Super Rol](/basedata/entities/MasterSuperRole)
   - [Master Empresas Registradas](/basedata/entities/MasterStoredCompany)
-  - [Master Auditoría de Esquema Master](/basedata/entities/MasterMasterActivityLog)
+  - [Master Registro de Actividad](/basedata/entities/MasterMasterActivityLog)
   - [Master Registro de Empresas](/basedata/entities/MasterCompanySignUp)
