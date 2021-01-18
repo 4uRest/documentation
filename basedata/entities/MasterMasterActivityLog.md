@@ -1,6 +1,6 @@
-# Auditoría de Esquema Master
+# Registro de Actividad Master
 
-Entidad en esquema **Master** utilizada llevar un registro de movimientos en tablas importantes del esquema. Ésta permitirá tener el historial de movimientos con un mensaje personalizado de cada uno de ellos.
+Entidad en esquema **Master** utilizada llevar un registro de la actividad en tablas importantes del esquema. Ésta permitirá tener el historial de movimientos con un mensaje personalizado de cada uno de ellos.
 
 ---
 
