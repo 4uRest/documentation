@@ -34,7 +34,9 @@ Diagrama de la base de datos [(Link aquí)](https://app.diagrams.net/#G12bfdBfGq
 
 Las reglas para las operaciones básicas y los campos mínimos requeridos de la entidad son:
 
-Tabla aquí
+| Entitie | Campos de entrada mínimos | Reglas para Create | Reglas para Update | Reglas para Soft Delete |
+|-|-|-|-|-|
+| MasterActivityLog | entity, reg_guid, message | Se genera: id, created_at. Se cumple con campos de entrada mínimos y creator_super_user_guid | No se puede ejecutar la operación. | No se puede ejecutar la operación. |
 
 ---
 

@@ -41,7 +41,9 @@ Diagrama de la base de datos [(Link aquí)](https://app.diagrams.net/#G12bfdBfGq
 
 Las reglas para las operaciones básicas y los campos mínimos requeridos de la entidad son:
 
-Tabla aquí
+| Entitie | Campos de entrada mínimos | Reglas para Create | Reglas para Update | Reglas para Soft Delete |
+|-|-|-|-|-|
+| CompanySignUp | company_name, subsidiary_name, business_model_guid, user_name, user_last_name, user_phone_number, user_email, user_password | Se genera: id, created_at. Se cumple con campos de entrada mínimos. | El usuario debe de confirmar el correo electrónico o el número de teléfono. Se genera: updated_at. | No se puede ejecutar la operación. |
 
 ---
 
