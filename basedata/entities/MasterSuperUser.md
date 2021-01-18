@@ -1,6 +1,6 @@
 # Super Usuario
 
-Entidad utilizada para gestionar super usuarios en el sistema. Éstos son usuarios principales capaces de gestionar empresas, sucursales etc. El alcance es a nivel empresa 4UREST.
+Entidad en esquema **Master**, utilizada para gestionar super usuarios en el sistema. Éstos son usuarios principales capaces de gestionar empresas. El alcance es a nivel empresa 4UREST.
 
 ---
 
@@ -35,7 +35,7 @@ La descripción de los campos de las entidades se presenta a continuación.
 
 El modelo de la entidad en la base de datos con sus llaves foráneas se presenta de la siguiente manera.
 
-![Company table](/images/SuperUserTable.png)
+![Master Super User Table](/images/MasterSuperUserTable.png)
 
 Diagrama de la base de datos [(Link aquí)](https://app.diagrams.net/#G12bfdBfGq1QhoH-HbKd0D5KDiGZxJKMYT).
 
@@ -45,9 +45,7 @@ Diagrama de la base de datos [(Link aquí)](https://app.diagrams.net/#G12bfdBfGq
 
 Las reglas para las operaciones básicas y los campos mínimos requeridos de la entidad son:
 
-| Entitie | Campos de entrada mínimos | Reglas para Create | Reglas para Update | Reglas para Soft Delete |
-|:-:|:-:|:-:|:-:|:-:|
-| SuperUser | name, last_name, phone_number, email, password, super_role_guid | El super usuario creador debe tener el super rol autorizado para la acción. Se genera: guid, id, created_at. Se cumple con campos de entrada mínimos y creator_super_user_guid. | El super usuario actualizador debe tener el super rol autorizado para la acción. Se genera: updated_at. Se cumple con campos de entrada mínimos y updater_super_user_guid. | Un super usuario no se puede eliminar a si mismo. El super usuario eliminador debe tener el super rol autorizado para la acción. Se genera: deleted_at. Se cumple con campo deletor_super_user_guid. |
+Tabla aquí
 
 ---
 

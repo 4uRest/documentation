@@ -6,7 +6,7 @@ Espacio destinado para la documentación de las entidades de la base de datos de
 
 ### VISTAS DE LA ETAPA I
 
-El siguiente [enlace](http://bit.ly/4UREST-VIEWS) presenta las vistas y flujo de la Etapa I
+El siguiente [enlace](https://www.figma.com/file/u6nGn2afrkYcpE3udvifrg/MVP?node-id=6%3A153) presenta las vistas y flujo de la Etapa I
 
 ![VIEWS EN ETAPA I](basedata/entities/images/FORM_VIEWS.jpg)
 
