@@ -45,7 +45,9 @@ Diagrama de la base de datos [(Link aquí)](https://app.diagrams.net/#G12bfdBfGq
 
 Las reglas para las operaciones básicas y los campos mínimos requeridos de la entidad son:
 
-Tabla aquí
+| Entitie | Campos de entrada mínimos | Reglas para Create | Reglas para Update | Reglas para Soft Delete |
+|-|-|-|-|-|
+| SuperUser | name, last name, phone_number, email, password, super_role_guid | El super usuario creador debe tener el super rol autorizado para la acción. Se genera: guid, id, created_at. Se cumple con campos de entrada mínimos y creator_super_user_guid. | El super usuario actualizador debe tener el super rol autorizado para la acción. Se genera: updated_at. Se cumple con campos de entrada mínimos y updater_super_user_guid. | Un super usuario no se puede eliminar a si mismo. El super usuario eliminador debe tener el super rol autorizado para la acción. Se genera: deleted_at. Se cumple con campo deletor_super_user_guid. |
 
 ---
 
