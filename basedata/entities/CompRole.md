@@ -28,7 +28,7 @@ La descripción de los campos de las entidades se presenta a continuación.
 
 El modelo de la entidad en la base de datos con sus llaves foráneas se presenta de la siguiente manera.
 
-![ Table](/images/ComTable.png)
+![Role Table](/images/ComRoleTable.png)
 
 Diagrama de la base de datos [(Link aquí)](https://app.diagrams.net/#G12bfdBfGq1QhoH-HbKd0D5KDiGZxJKMYT).
 
@@ -42,6 +42,8 @@ Diagrama de la base de datos [(Link aquí)](https://app.diagrams.net/#G12bfdBfGq
 | guid | permission_guid | Guid del permiso. |
 | guid | creator_user_guid | Campo que registra el guid del creador del registro. |
 | datetime | created_at | Campo que registra la hora y fecha de la creación del registro. |
+
+![RolePermission Table](/images/ComRolePermissionTable.png)
 
 ## 4.  Reglas para operaciones básicas.
 

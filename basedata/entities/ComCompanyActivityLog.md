@@ -24,7 +24,7 @@ La descripción de los campos de las entidades se presenta a continuación.
 
 El modelo de la entidad en la base de datos con sus llaves foráneas se presenta de la siguiente manera.
 
-![ Table](/images/ComTable.png)
+![CompanyActivityLog Table](/images/ComCompanyActivityLogTable.png)
 
 Diagrama de la base de datos [(Link aquí)](https://app.diagrams.net/#G12bfdBfGq1QhoH-HbKd0D5KDiGZxJKMYT).
 
