@@ -1,6 +1,6 @@
-# Modelo de Negocio
+# Preferencias de sistema semilla
 
-Entidad utilizada para clasificar el modelo de negocio de un grupo de sucursales en el sistema.
+Entidad en esquema **Config**. Una preferencia de sistema representa un registro especial de proposito general en las configuraciones del esquema de la empresa en el sistema. Estas preferencias son las configuraciones semilla que se insertan cuando se crea un esquema nuevo.
 
 ---
 
@@ -10,9 +10,12 @@ La descripción de los campos de las entidades se presenta a continuación.
 
 | Tipo | Campo | Descripción |
 |-|-|-|
+| guid | guid | Es el identificador único y llave primaria de tipo guid. |
 | int | id | Registro único y auto incrementable de la tabla. |
-| string | name | Representa el nombre asignado al modelo de negocio. |
-| byte | hidden | Representa la visibilidad en el sistema: 0—visible, 1—oculto en el sistema. Por defecto es 0. |
+| string | type | Tipo/Clasificación de preferencia de sistema. |
+| string | name | Nombre de preferencia de sistema. |
+| string | value | Valor inicial de preferencia de sistema. |
+| string | description | Descripción de preferencia de sistema. |
 | guid | creator_super_user_guid | Campo que registra el guid del creador del registro. |
 | guid | updater_super_user_guid | Campo que registra el guid del editor/modificador del registro. |
 | guid | deletor_super_user_guid | Campo que registra el guid del eliminador del registro. |
@@ -26,7 +29,7 @@ La descripción de los campos de las entidades se presenta a continuación.
 
 El modelo de la entidad en la base de datos con sus llaves foráneas se presenta de la siguiente manera.
 
-![Business Model table](/images/BusinessModelTable.png)
+![Config System Preferences Table](/images/ConfigSeedSystemPreferencesTable.png)
 
 Diagrama de la base de datos [(Link aquí)](https://app.diagrams.net/#G12bfdBfGq1QhoH-HbKd0D5KDiGZxJKMYT).
 
@@ -36,9 +39,7 @@ Diagrama de la base de datos [(Link aquí)](https://app.diagrams.net/#G12bfdBfGq
 
 Las reglas para las operaciones básicas y los campos mínimos requeridos de la entidad son:
 
-| Entitie | Campos de entrada mínimos | Reglas para Create | Reglas para Update | Reglas para Soft Delete |
-|:-:|:-:|:-:|:-:|:-:|
-| BusinessModel | name | El super usuario creador debe tener el super rol autorizado para la acción. Se genera: id, created_at. Se cumple con campos de entrada mínimos y creator_super_user_guid. | El super usuario actualizador debe tener el super rol autorizado para la acción. Se genera: updated_at. Se cumple con campos de entrada mínimos y updater_super_user_guid. | Que ninguna sucursal tenga asignado el business model. El super usuario eliminador debe tener el super rol autorizado para la acción. Se genera: deleted_at. Se cumple con campo deletor_super_user_guid. |
+
 
 ---
 
