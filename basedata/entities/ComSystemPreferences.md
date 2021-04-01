@@ -8,7 +8,17 @@ Entidad en esquema **Company** utilizada para ...
 
 La descripción de los campos de las entidades se presenta a continuación.
 
-Tabla Aquí
+| Tipo | Campo | Descripción |
+|-|-|-|
+| guid | guid | Es el identificador único y llave primaria de tipo guid. |
+| int | id | Registro único y auto incrementable de la tabla. |
+| string | type | Tipo/Clasificación de preferencia de sistema. |
+| string | name | Nombre de preferencia de sistema. |
+| string | value | Valor inicial de preferencia de sistema. |
+| string | description | Descripción de preferencia de sistema. |
+| guid | updater_user_guid | Campo que registra el guid del editor/modificador del registro. |
+| datetime | created_at | Campo que registra la hora y fecha de la creación del registro. |
+| datetime | updated_at | Campo que registra la hora y fecha de la actualización/modificación del registro. |
 
 --- 
 

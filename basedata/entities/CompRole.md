@@ -8,7 +8,19 @@ Entidad en esquema **Company** utilizada para ...
 
 La descripción de los campos de las entidades se presenta a continuación.
 
-Tabla Aquí
+| Tipo | Campo | Descripción |
+|-|-|-|
+| guid | guid | Es el identificador único y llave primaria de tipo guid. |
+| int | id | Registro único y auto incrementable de la tabla. |
+| string | name | Representa el nombre asignado al rol. |
+| string | description | Descripción de apoyo para entender el alcance del rol. |
+| guid | subsidiary_group_guid | Guid del grupo de sucursales donde se creo el rol. |
+| guid | creator_user_guid | Campo que registra el guid del creador del registro. |
+| guid | updater_user_guid | Campo que registra el guid del editor/modificador del registro. |
+| guid | deletor_user_guid | Campo que registra el guid del eliminador del registro. |
+| datetime | created_at | Campo que registra la hora y fecha de la creación del registro. |
+| datetime | updated_at | Campo que registra la hora y fecha de la actualización/modificación del registro. |
+| datetime | deleted_at | Campo que registra la hora y fecha de la eliminación del registro. |
 
 --- 
 
@@ -22,7 +34,16 @@ Diagrama de la base de datos [(Link aquí)](https://app.diagrams.net/#G12bfdBfGq
 
 ---
 
-## 3.  Reglas para operaciones básicas.
+| Tipo | Campo | Descripción |
+|-|-|-|
+| guid | guid | Es el identificador único y llave primaria de tipo guid. |
+| int | id | Registro único y auto incrementable de la tabla. |
+| guid | role_guid | Guid del rol. |
+| guid | permission_guid | Guid del permiso. |
+| guid | creator_user_guid | Campo que registra el guid del creador del registro. |
+| datetime | created_at | Campo que registra la hora y fecha de la creación del registro. |
+
+## 4.  Reglas para operaciones básicas.
 
 Las reglas para las operaciones básicas y los campos mínimos requeridos de la entidad son:
 
