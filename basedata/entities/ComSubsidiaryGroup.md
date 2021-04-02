@@ -36,12 +36,4 @@ Diagrama de la base de datos [(Link aquí)](https://app.diagrams.net/#G12bfdBfGq
 
 ---
 
-## 3.  Reglas para operaciones básicas.
-
-Las reglas para las operaciones básicas y los campos mínimos requeridos de la entidad son:
-
-Tabla Aquí
-
----
-
 📝 [Editar Documento](https://github.com/4uRest/documentation)

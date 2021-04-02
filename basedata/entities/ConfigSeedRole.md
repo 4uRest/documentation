@@ -33,14 +33,7 @@ Diagrama de la base de datos [(Link aquí)](https://app.diagrams.net/#G12bfdBfGq
 
 ---
 
-## 3.  Reglas para operaciones básicas.
-
-Las reglas para las operaciones básicas y los campos mínimos requeridos de la entidad son:
-
-
----
-
-## 4.  Asignación de permisos al rol semilla.
+## 3. Asignación de permisos al rol semilla.
 
 La asignación de permisos al rol semilla se ejecuta a través de una tabla relacional entre la tabla **Permission** y **SeedRole** surgiendo **SeedRolePermission** de la siguiente manera.
 
@@ -58,9 +51,5 @@ Donde la descripción de los campos quedaría.
 | datetime | created_at | Campo que registra la hora y fecha de la creación del registro. |
 
 ---
-
-Reglas base de la tabla para **SeedRolePermission**.
-
-
 
 📝 [Editar Documento](https://github.com/4uRest/documentation)

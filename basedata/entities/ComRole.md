@@ -35,15 +35,7 @@ Diagrama de la base de datos [(Link aquí)](https://app.diagrams.net/#G12bfdBfGq
 
 ---
 
-## 3.  Reglas para operaciones básicas.
-
-Las reglas para las operaciones básicas y los campos mínimos requeridos de la entidad son:
-
-Tabla Aquí
-
----
-
-## 4. Asignación de permisos al rol.
+## 3. Asignación de permisos al rol.
 
 La asignación de permisos al rol se ejecuta a través de una tabla relacional entre la tabla **Permission** y **Role** surgiendo **RolePermission** de la siguiente manera.
 
