@@ -1,4 +1,4 @@
-# Registro de una Empresa.
+# Usuarios
 
 Entidad en esquema **Company**, utilizada para gestionar usuarios en el sistema de las empresas. Éstos son usuarios son capaces de ejercer acciones en la empresa segun el alcance de su rol.
 
@@ -22,8 +22,6 @@ La descripción de los campos de las entidades se presenta a continuación.
 | string | password | Representa la clave de acceso al sistema del usuario. |
 | int | pos_pin | Pin de acceso a la plataforma punto de venta. |
 | byte | hidden | Representa la visibilidad en el sistema: 0—visible, 1—sin acceso al sistema. Por defecto es 0. |
-| guid | subsidiary_group_guid | Campo que registra el guid del grupo de sucursales al que pertenece el usuario. Leer punto XX.XX |
-| guid | subsidiary_guid | Campo que registra el guid de la sucursal al que pertenece el usuario. Leer punto XX.XX |
 | guid | role_guid | Campo que registra el guid del rol asignado al usuario. |
 | guid | creator_user_guid | Campo que registra el guid del creador del registro. |
 | guid | updater_user_guid | Campo que registra el guid del editor/modificador del registro. |
