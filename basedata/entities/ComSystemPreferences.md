@@ -1,6 +1,6 @@
-# Registro de una Empresa.
+# Preferencias de Sistema.
 
-Entidad en esquema **Company** utilizada para ...
+Entidad en esquema **Company**. Una preferencia de sistema representa un registro especial de proposito general en las configuraciones del esquema de la empresa en el sistema.
 
 ---
 

@@ -1,6 +1,6 @@
-# Registro de una Empresa.
+# Sucursales.
 
-Entidad en esquema **Company** utilizada para ...
+Entidad en esquema **Company** utilizada para representar una subsidiaria(sucursal) de un grupo de subsidiarias. Ésta será un elemento del grupo al que pertenece y por ende compartirá características como menú, productos, datos fiscales, inventario, donde parte de estos elementos en común son a su vez personalizables por sucursal, por ejemplo una sucursal comparte el menú del grupo, pero en esta sucursal puede que no se maneje un producto en específico por lo que se podrá deshabilitar sólo en ésta sucursal sin afectar a las demás.
 
 ---
 

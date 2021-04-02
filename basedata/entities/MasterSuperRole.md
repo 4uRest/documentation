@@ -49,7 +49,7 @@ La asignación de permisos al super rol se ejecuta a través de una tabla relaci
 
 ![Master Super Role Permission Table](/images/MasterSuperRolePermissionTable.png)
 
-Donde la descripción de los campos quedaría de la siguiente manera.
+Donde la descripción de los campos quedaría.
 
 | Tipo | Campo | Descripción |
 |-|-|-|

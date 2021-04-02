@@ -1,6 +1,6 @@
-# Registro de una Empresa.
+# Grupo de Sucursales
 
-Entidad en esquema **Company** utilizada para ...
+Entidad en esquema **Company** utilizada para gestionar un grupo de sucursales que comparten el mismo menú, modelo de negocios, etc. En conclusión son una sucursal más del grupo. Las sucursales que están dentro del grupos permiten la comparación directa de n variables, como venta por producto, tiempos de preparación etc.
 
 ---
 

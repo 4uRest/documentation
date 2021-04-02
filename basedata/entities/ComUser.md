@@ -1,6 +1,6 @@
 # Registro de una Empresa.
 
-Entidad en esquema **Company** utilizada para ...
+Entidad en esquema **Company**, utilizada para gestionar usuarios en el sistema de las empresas. Éstos son usuarios son capaces de ejercer acciones en la empresa segun el alcance de su rol.
 
 ---
 

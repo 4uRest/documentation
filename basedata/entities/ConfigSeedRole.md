@@ -46,7 +46,7 @@ La asignación de permisos al rol semilla se ejecuta a través de una tabla rela
 
 ![Config Seed Role Permission Table](/images/ConfigSeedRolePermissionTable.png)
 
-Donde la descripción de los campos quedaría de la siguiente manera.
+Donde la descripción de los campos quedaría.
 
 | Tipo | Campo | Descripción |
 |-|-|-|

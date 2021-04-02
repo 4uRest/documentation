@@ -1,6 +1,6 @@
-# Registro de una Empresa.
+# Menú
 
-Entidad en esquema **Company** utilizada para ...
+Entidad en esquema **Company**, representa el registro simbólico de un menú al que se asignan una cantidad de elementos como productos, subrecetas, recetas, etc.
 
 ---
 

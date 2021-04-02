@@ -1,6 +1,6 @@
 # Modelo de Negocio
 
-Entidad utilizada para clasificar el modelo de negocio de un grupo de sucursales en el sistema.
+Entidad utilizada para clasificar el modelo de negocio de un grupo de sucursales en el sistema. Éstos son asignados a los grupos de sucursales que se registran en los esquemas de la empresa dando la capacidad de asignar segun el modelo de negocios los roles que se ajustan al giro del grupo de sucursales.
 
 ---
 

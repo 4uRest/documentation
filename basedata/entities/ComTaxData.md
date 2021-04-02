@@ -1,6 +1,6 @@
-# Registro de una Empresa.
+# Datos Fiscales
 
-Entidad en esquema **Company** utilizada para ...
+Entidad en esquema **Company** utilizada para registrar n datos fiscales en una empresa, pudiendo asignar éstos datos fiscales a diferentes sucursales y grupos de sucursales de la misma.
 
 ---
 

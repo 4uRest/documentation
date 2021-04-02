@@ -12,7 +12,7 @@
   - [Config Preferencias de Sistema](/basedata/entities/ConfigSeedSystemPreferences)
   - [Config Registro de Actividad](/basedata/entities/ConfigConfigActivityLog)
   - [Company Pref de Sistema](/basedata/entities/ComSystemPreferences)
-  - [Company Roles](/basedata/entities/CompRole)
+  - [Company Roles](/basedata/entities/ComRole)
   - [Company Grupos de Sucursales](/basedata/entities/ComSubsidiaryGroup)
   - [Company Menús](/basedata/entities/ComMenu)
   - [Company Sucursales](/basedata/entities/ComSubsidiary)

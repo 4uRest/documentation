@@ -1,6 +1,6 @@
-# Registro de una Empresa.
+# Registro de actividad Company
 
-Entidad en esquema **Company** utilizada para ...
+Entidad en esquema **Company** utilizada para llevar un registro de la actividad en tablas importantes del esquema. Ésta permitirá tener el historial de movimientos con un mensaje personalizado de cada uno de ellos.
 
 ---
 

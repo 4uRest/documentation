@@ -1,6 +1,7 @@
-# Registro de una Empresa.
+# Rol.
 
-Entidad en esquema **Company** utilizada para ...
+Entidad en esquema **Company**. Utilizada para gestionar permisos y alcances de usuarios en el sistema de las empresas.
+
 
 ---
 
@@ -34,6 +35,22 @@ Diagrama de la base de datos [(Link aquí)](https://app.diagrams.net/#G12bfdBfGq
 
 ---
 
+## 3.  Reglas para operaciones básicas.
+
+Las reglas para las operaciones básicas y los campos mínimos requeridos de la entidad son:
+
+Tabla Aquí
+
+---
+
+## 4. Asignación de permisos al rol.
+
+La asignación de permisos al rol se ejecuta a través de una tabla relacional entre la tabla **Permission** y **Role** surgiendo **RolePermission** de la siguiente manera.
+
+![RolePermission Table](/images/ComRolePermissionTable.png)
+
+Donde la descripción de los campos quedaría.
+
 | Tipo | Campo | Descripción |
 |-|-|-|
 | guid | guid | Es el identificador único y llave primaria de tipo guid. |
@@ -42,15 +59,5 @@ Diagrama de la base de datos [(Link aquí)](https://app.diagrams.net/#G12bfdBfGq
 | guid | permission_guid | Guid del permiso. |
 | guid | creator_user_guid | Campo que registra el guid del creador del registro. |
 | datetime | created_at | Campo que registra la hora y fecha de la creación del registro. |
-
-![RolePermission Table](/images/ComRolePermissionTable.png)
-
-## 4.  Reglas para operaciones básicas.
-
-Las reglas para las operaciones básicas y los campos mínimos requeridos de la entidad son:
-
-Tabla Aquí
-
----
 
 📝 [Editar Documento](https://github.com/4uRest/documentation)

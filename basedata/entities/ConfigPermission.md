@@ -1,6 +1,6 @@
 # Permiso
 
-Entidad en esquema **Config**. Un permiso representa una acción en el sistema de las empresas, los permisos se asignan a un seed role de los usuarios de las empresas.
+Entidad en esquema **Config**. Un permiso representa una acción en el sistema de las empresas, los permisos se asignan a un seed role, o un rol, según el caso.
 
 ---
 
